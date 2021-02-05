@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -14,17 +14,17 @@
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
-      "dimensions": false,
+      "dimensions": true,
       "footprints": true,
-      "graphics": false,
-      "keepouts": false,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": true,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
-      "tracks": false,
-      "vias": false,
-      "zones": false
+      "otherItems": true,
+      "pads": true,
+      "text": true,
+      "tracks": true,
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       0,
@@ -34,7 +34,6 @@
       4,
       5,
       6,
-      7,
       8,
       9,
       10,
@@ -54,19 +53,21 @@
       24,
       25,
       26,
-      27,
-      28,
       29,
       30,
       31,
+      32,
+      33,
+      34,
+      35,
       39,
       40
     ],
-    "visible_layers": "7fcffff_80000007",
+    "visible_layers": "7ffffff_80000001",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "pcb.kicad_prl",
+    "filename": "front_pcb.kicad_prl",
     "version": 2
   },
   "project": {

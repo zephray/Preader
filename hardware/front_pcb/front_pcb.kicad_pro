@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.5,
-          "height": 3.5,
-          "width": 3.5
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -57,7 +57,6 @@
       ],
       "drc_exclusions": [],
       "meta": {
-        "filename": "board_design_settings.json",
         "version": 1
       },
       "rule_severities": {
@@ -98,46 +97,33 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.024999999999999998,
+        "min_copper_edge_clearance": 0.01,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.09999999999999999,
-        "min_track_width": 0.09999999999999999,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.19999999999999998,
-        "solder_mask_clearance": 0.051,
-        "solder_mask_min_width": 0.25,
+        "min_via_diameter": 0.39999999999999997,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.0,
-        0.175,
-        0.19558,
-        0.2,
-        0.3,
-        0.4,
-        0.762,
-        1.0
+        0.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -358,44 +344,26 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pcb.kicad_pro",
+    "filename": "front_pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.0889,
-        "diff_pair_gap": 0.1,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1,
+        "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.4,
-        "microvia_drill": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.0889,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.1524,
-        "diff_pair_gap": 0.1,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1,
-        "line_style": 0,
-        "microvia_diameter": 0.4,
-        "microvia_drill": 0.2,
-        "name": "USB",
-        "nets": [],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2286,
-        "via_diameter": 0.65,
-        "via_drill": 0.3,
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6.0
       }
     ],
@@ -410,7 +378,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "pcb.step",
+      "step": "front_pcb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -446,32 +414,8 @@
   },
   "sheets": [
     [
-      "00000000-0000-0000-0000-00005d4c99f9",
+      "4b6fe83b-0c35-4bba-9a71-b29f0599abb7",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-00005d4c99f9",
-      "power"
-    ],
-    [
-      "00000000-0000-0000-0000-00005d180a01",
-      "cpu"
-    ],
-    [
-      "00000000-0000-0000-0000-00005db2122b",
-      "storage"
-    ],
-    [
-      "00000000-0000-0000-0000-00005db51f59",
-      "lcd"
-    ],
-    [
-      "00000000-0000-0000-0000-00005d1a413b",
-      "usb"
-    ],
-    [
-      "00000000-0000-0000-0000-00005d438406",
-      "keypad"
     ]
   ],
   "text_variables": {}
