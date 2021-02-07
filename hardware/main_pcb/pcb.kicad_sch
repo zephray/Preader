@@ -627,11 +627,11 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 48caf61a-8b38-47f4-9155-e6cb41792618)
     )
-    (pin "LCD_DISPON" input (at 137.16 116.84 180)
+    (pin "LCD_DISPON" input (at 137.16 127 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c1bc2582-f6f6-44e1-aa86-da7037a0c90d)
     )
-    (pin "LCD_SEGLP" input (at 137.16 119.38 180)
+    (pin "LCD_SEGLP" input (at 137.16 124.46 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a614f452-d111-4505-addb-13a32b49829c)
     )
@@ -639,7 +639,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid c697b26e-a613-437d-a1a6-a77f731fafa9)
     )
-    (pin "LCD_CP" input (at 137.16 124.46 180)
+    (pin "LCD_CP" input (at 137.16 129.54 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 87fd6f42-084e-4798-a428-1044af4907b3)
     )
@@ -651,11 +651,11 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 4a879ef9-90d3-49b3-8615-94e7bd4d6bb5)
     )
-    (pin "LCD_COMLP" input (at 137.16 127 180)
+    (pin "LCD_COMLP" input (at 137.16 116.84 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 032687b8-4c13-4014-ad32-1640b70bf721)
     )
-    (pin "LCD_FLM" input (at 137.16 129.54 180)
+    (pin "LCD_FLM" input (at 137.16 119.38 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid e45bbfd7-12b5-4f40-b968-8d2bc6e418ad)
     )
@@ -834,9 +834,6 @@
     (path "/00000000-0000-0000-0000-00005d4c99f9/3090237e-f25e-440a-a847-bdaa66840739"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005d4c99f9/ca59aaa1-81c4-4ac1-8fb0-99adef2834d5"
-      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005d4c99f9/e92868d4-2392-4126-a8ce-1e6fb38e9cbc"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
@@ -884,9 +881,6 @@
     )
     (path "/00000000-0000-0000-0000-00005d4c99f9/c3c081e0-dd78-48f8-ba78-bd79de0e3f17"
       (reference "L101") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Vishay_IHLP-1212")
-    )
-    (path "/00000000-0000-0000-0000-00005d4c99f9/87fa8bc4-ce71-43c0-a610-0c15c47fac56"
-      (reference "R101") (unit 1) (value "100K/1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005d4c99f9/df375d3c-7eff-4aaf-9a0f-d92f216bb3ae"
       (reference "U100") (unit 1) (value "ADP5360") (footprint "footprints:WLCSP-32_6x6_2.56x2.56mm")
